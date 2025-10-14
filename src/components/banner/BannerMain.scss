@@ -11,6 +11,10 @@
     .sidebar{
      width: 217px;
      height: 100%;
+     overflow-y: scroll;
+     &::-webkit-scrollbar{
+      width: 0;
+     }
 
      ul{
         list-style: none;

@@ -17,6 +17,7 @@
     height: 38px;
     border: none;
     margin: 0 auto;
+    margin-top:40px ;
     display: flex;
      justify-content: space-between;
     align-items: center;
@@ -52,7 +53,10 @@
     height: 38px;
     display: flex;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
+   
+
+    
 }
 .search{
     width: 243px;
@@ -60,9 +64,12 @@
     gap: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:0 50px  ;
     background-color: aliceblue;
+    border-radius: 4px;
+
+  
 }
 .text{
    width: 200px;

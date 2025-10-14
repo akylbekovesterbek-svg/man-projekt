@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Signap from "./pages/SignUp";
+import Cart from "./pages/Cart";
 
 const myRouter = createBrowserRouter([
   { path: "/",
@@ -24,6 +25,10 @@ const myRouter = createBrowserRouter([
         { 
             path: "signUp", 
             element: <Signap />                              
+        },
+        { 
+            path: "cart", 
+            element: <Cart />                              
         },
  ] },
 

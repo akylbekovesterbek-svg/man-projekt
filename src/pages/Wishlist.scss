@@ -3,7 +3,7 @@
 //     padding: 0;
 //     box-sizing: border-box;
 // }
-// .wrapper{
+// .klass{
 //     margin: 0 auto;
 //     width: 1308px;
 //     gap: 20px;
@@ -29,6 +29,7 @@
 //     justify-content: center;
 //     align-items: center;
 //     border-radius: 4px;
+//     text-align: center;
 // background: rgba(245, 245, 245, 1);
 
 // width: 270px;
@@ -79,19 +80,13 @@
 //     color:rgba(245, 245, 245, 1);
 //    border: none ;
 //    display: flex;
-//    align-items: center;
-//    gap: 10px;
+//   justify-content: center;
+//   text-align: center;
+    
 //    background: rgba(245, 245, 245, 1);
-//    img{
-//     width: 25px;
-//     display: none !important;
-//    }
 // }
 // .button:hover{
-//   background-color: #000; 
-//   img{
-//     display: block !important;
-//    }
+//   background-color: #000;  
 // }
 
 // .mini{

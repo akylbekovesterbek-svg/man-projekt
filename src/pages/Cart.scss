@@ -1,0 +1,57 @@
+
+
+.boos{
+  
+max-width: 1170px;
+width: 100%;
+margin: 80px;
+
+.test{
+    /* Roadmap */
+width: 103px;
+height: 21px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: start;
+gap: 12px;
+color: gray;
+margin: 100px;
+}
+
+    .desk{
+     width: 217px;
+     height: 100%;
+     margin: 30px;
+
+     .deskk{
+        /* Cart Main Section */
+width: 1170px;
+height: 72px;
+background-color: #ccc;
+     }
+
+     ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        gap: 284px;
+
+        color: rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);
+
+        font-family: Poppins;
+         font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: start;
+
+     }
+    }
+}
+
+

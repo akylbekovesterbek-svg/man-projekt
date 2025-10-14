@@ -7,11 +7,14 @@ import arava from '../../assets/svg/arava.svg'
 
 
 
+
+
 function Header() {
   
 
   return ( 
     <header className="header">
+        
        <div className='header-top'>
 <p style={{
     color:"#FAFAFA",
@@ -41,24 +44,30 @@ function Header() {
         <li>
             <Link to={"/signUp"}style={{color:"black",textDecoration:"none"}}>Sign Up</Link>
         </li>
+        {/* <li>
+            <Link to={"/cart"}style={{color:"black",textDecoration:"none"}}>Cart</Link>
+        </li> */}
         
     </ul>
     </div>
 </div>
 <div className='nav-right'>
-    <div className='search'>
+<div className='search'>
     <input className='text' type="text" placeholder='What are you looking for?'/>
     <img src={poisk} alt="" />
 </div>
 </div>
 
 <div className='icons'>
-    <img src={wishlist} alt="" />
-<img src={arava} alt="" />
+    <div >  < Link to={"/wish"}><img src={wishlist} alt="" /></ Link > </div>
+     <div> <Link to={"/cart"}><img src={arava} alt="" /></Link></div> 
+
 </div>
+
+
              </div>
       
-
+      
     </header>
     
     
