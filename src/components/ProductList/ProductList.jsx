@@ -38,13 +38,14 @@ function ProductList() {
                             <img src={jyldyz} alt="" />
                             <img src={jyldyz} alt="" />
                             <img src={jyldyz} alt="" />
+                            <img src={jyldyz} alt="" />
                             </div>
                         <div> <p>(88)</p></div>
                     </jyldyz>
 
 
                 </div>
-            </div>,
+            </div>
             
         </div>
     )
