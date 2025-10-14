@@ -1,11 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Header.scss'
-
 import poisk from '../../assets/svg/poisk.svg'
 import wishlist from '../../assets/svg/wishlist.svg'
 import arava from '../../assets/svg/arava.svg'
-
 
 
 
@@ -15,6 +13,7 @@ function Header() {
 
   return ( 
     <header className="header">
+        
        <div className='header-top'>
 <p style={{
     color:"#FAFAFA",
@@ -48,14 +47,17 @@ function Header() {
     </ul>
     </div>
 </div>
-<div className='nav-right'></div>
+<div className='nav-right'>
 <div className='search'>
     <input className='text' type="text" placeholder='What are you looking for?'/>
     <img src={poisk} alt="" />
 </div>
+</div>
+
 <div className='icons'>
-    <img src={wishlist} alt="" />
-<img src={arava} alt="" />
+    <div >  < Link to={"/wish"}><img src={wishlist} alt="" /></ Link > </div>
+     <div><img src={arava} alt="" /></div> 
+
 </div>
 
 
