@@ -14,7 +14,6 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
 
-        {/* Exclusive */}
         <div className="footer-section">
           <h2 className="footer-title">Exclusive</h2>
           <h3 className="footer-subtitle">Subscribe</h3>
@@ -27,7 +26,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Support */}
+     
         <div className="footer-section">
           <h2 className="footer-title">Support</h2>
           <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
@@ -35,7 +34,7 @@ function Footer() {
           <p>+88015-88888-9999</p>
         </div>
 
-        {/* Account */}
+     
         <div className="footer-section">
           <h2 className="footer-title">Account</h2>
           <ul>
@@ -47,7 +46,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Quick Link */}
+       
         <div className="footer-section">
           <h2 className="footer-title">Quick Link</h2>
           <ul>
@@ -58,7 +57,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Download App */}
         <div className="footer-section">
           <h2 className="footer-title">Download App</h2>
           <p>Save $3 with App New User Only</p>

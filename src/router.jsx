@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Signap from "./pages/SignUp";
+import Cart from "./pages/Cart";
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login"
 
@@ -29,6 +30,9 @@ const myRouter = createBrowserRouter([
             element: <Signap />                              
         },
         { 
+            path: "cart", 
+            element: <Cart />                              
+        },
             path: "login", 
             element: <Login />                              
         },

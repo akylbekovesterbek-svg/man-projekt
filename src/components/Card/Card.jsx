@@ -1,3 +1,15 @@
+import React from 'react'
+import "./Card.scss"
+
+function Card() {
+  return (
+    <div>
+      Card
+    </div>
+  )
+}
+
+export default Card
 import React, { useEffect, useState } from 'react'
 import "./Card.scss"
 

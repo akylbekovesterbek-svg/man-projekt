@@ -43,6 +43,9 @@ function Header() {
         <li>
             <Link to={"/signUp"}style={{color:"black",textDecoration:"none"}}>Sign Up</Link>
         </li>
+        {/* <li>
+            <Link to={"/cart"}style={{color:"black",textDecoration:"none"}}>Cart</Link>
+        </li> */}
         
     </ul>
     </div>
@@ -56,6 +59,7 @@ function Header() {
 
 <div className='icons'>
     <div >  < Link to={"/wish"}><img src={wishlist} alt="" /></ Link > </div>
+     <div> <Link to={"/cart"}><img src={arava} alt="" /></Link></div> 
      <div><img src={arava} alt="" /></div> 
 
 </div>
