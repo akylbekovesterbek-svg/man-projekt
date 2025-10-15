@@ -45,7 +45,7 @@ function SignUp() {
           </google>
             <div style={{display:"flex", justifyContent:"center", alignItems:"center", gap:"10px", marginTop:"20px", cursor:"pointer",width:"100%", height:"56px",textAlign:"center", }}>
               
-              <h4>Already have account? <a href="./contact" style={{color:"black"}}>Log in</a></h4>
+              <h4>Already have account? <a href="./login" style={{color:"black"}}>Log in</a></h4>
               
             </div>
         </div>

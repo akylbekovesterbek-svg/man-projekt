@@ -8,7 +8,6 @@ import arava from '../../assets/svg/arava.svg'
 
 
 
-
 function Header() {
   
 
@@ -61,6 +60,7 @@ function Header() {
 <div className='icons'>
     <div >  < Link to={"/wish"}><img src={wishlist} alt="" /></ Link > </div>
      <div> <Link to={"/cart"}><img src={arava} alt="" /></Link></div> 
+     <div><img src={arava} alt="" /></div> 
 
 </div>
 
